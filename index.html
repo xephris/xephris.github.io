@@ -1,7 +1,97 @@
 <!DOCTYPE html> 
 <html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Monica | UI/UX Designer</title>
+
+	<link rel="stylesheet" href="stylesheets/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="stylesheets/style.css">
+
+	<link rel="canonical" href="http://www.xephris.github.io/">
+	<link rel="alternate" type="application/rss+xml" title="Monica - UI/UX Designer" href="http://www.xephris.github.io/feed.xml">
+
+</head>
+
+<script src="typed.js-master/jquery.js"></script>
+<script src="typed.js-master/js/typed.js"></script>
+<script>
+	$(function(){
+		$(".element").typed({
+			strings: ["a designer", "an illustrator", "a cat cuddler", "a level 23 wizard"],
+			typeSpeed: 40,
+			backSpeed: 40,
+			startDelay: 0,
+			backDelay: 1000,
+            loop: true
+		});
+	});
+</script>
+
 <body>
-<h1> Hello! This is a test page. </h1>
-<p> Testing out GitHub pages. </p>
-</body>
-</html>
+	<div class="jumbotron bg-white">
+		<div class="container">
+			<h1>Hi, I'm Monica</h1>
+			<div class="description-container">
+				<p>As a thoughtful product designer, I weave meaningful experiences through illustration, code, and words. </p>
+				<div class="wrapper">
+					<div class="link-container"> <a class="about" href="#work"> About ¬</a> </div>
+					<div class="link-container"> <a class="work" href="#work"> Work ¬</a> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Work Section -->
+	<div class="row">
+		<div class="col-xs-6"> 
+			<div class="hovereffect"> 
+				<a href="#work">
+					<img class="thumbnails" src="assets/thumbnails/globaledit.jpg">
+					<div class="overlay">
+						<p class="portfolio-desc"> globaledit: Support Center </p>
+						<p class="portfolio-desc"> UI/UX Design <br> Information Architecture <br> Copywriting </p>
+						<p class="portfolio-desc"> Under Construction 😞 </p>
+					</div>
+				</a>
+			</div> 
+		</div>
+
+		<div class="col-xs-6"> 
+			<div class="hovereffect"> 
+				<a href="#work">
+					<img class="thumbnails" src="assets/thumbnails/sq46.jpg">
+					<div class="overlay">
+						<p class="portfolio-desc"> Square 46 </p>
+						<p class="portfolio-desc"> UI/UX Design <br> Branding & Identity <br> Copywriting </p>
+						<p class="portfolio-desc"> Under Construction 😞 </p>
+					</div>
+				</a>
+			</div> 
+		</div>
+	</div>
+
+	<div class="jumbotron bg-white">
+		<div class="container">
+			<a class="anchor" href="#about"> <h1> I am <span class="element"></span> </h1> </a>
+			<div class="about-desc-container">
+				<p> With a background in Urban Planning & Computer Science at <a href="http://urbandemos.nyu.edu/hope-the-pitanga-cherries-grow-an-ethnographic-look-at-luanda/">New York University</a>, I enjoy collaborating across a breadth of fields to fuse research, visual design, and prototyping into one, tidy package. Systematic and iterative design — backed by data — is the cornerstone of my process. </p>
+
+					<p>In my free time, you can find me competitively playing video games and even snagging <a href="work">first place</a> at local tournaments in New York City. Gender visibility in video game communities, both offline and online, is my jam.</p>
+
+					<p> <b>Tools</b> ¬ Sketch, InVision, React.js, Adobe Illustrator, Sublime Text <br>
+				</div>
+			</div>
+		</div>
+
+		<div class="jumbotron footer">
+			<div class="container">
+				<p class="footer"> Thanks for visting my humble abode on the Internet! 👋</p>
+			</div>
+		</div>
+
+	</body>
+	</html>
